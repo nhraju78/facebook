@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.row{
+  padding: 15px 0;
+}
+.container{
+  max-width: 75%;
+  margin: auto;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* header part start */
+
+header{
+  background-color: #3B5998;
+}
+.logo{
+  float: left;
+  width: 58%;
+}
+.logo img{
+  margin-top: 15px;
+}
+.login_form{
+  float: left;
+  width: 42%;
+}
+.login_left{
+  float: left;
+  width: 200px;
+}
+.login_right{
+  float: left;
+  width: 200px;
+  margin-left:8px ;
+}
+.login_right a{
+  font-size: 12px;
+  color: #9CB4CB;
+  margin-top: 10px;
+  display: inline-block;
+}
+.login_right a:hover{
+  text-decoration: underline;
+}
+.login_form label{
+  color: white;
+  font-size: 16px;  
+}
+.login_form input{
+  font-size: 18px;
+  border: none;
+}
+.login_form input:focus{
+  border: white;
+}
+.login_form input[type=submit]{
+  margin-top: 17px;
+  background-color: #4267B2;
+  border: none;
+  color: white;
+  margin-left: 5px;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+.login_form input[type=submit]:hover{
+  background-color: #19428f;
+}
+/* header part end */
+
+/* banner part start */
+
+.banner{
+  background-color:#D7DCEA;
+}
+.row_content{
+  margin-top: 8px;
+}
+.row_content_left{
+  width: 50%;
+  float: left;
+  margin-right: 60px;
+}
+.row_content_left p{
+  font-size: 20px;
+  font-weight: bold;
+  color: #0E385F;
+}
+.row_content_right{
+}
+.input_name input{
+  font-size: 23px;
+}
+.input_email input{
+  width: 490px;
+  margin: 10px 0;
+  font-size: 23px;
+}
+.input_pass input{
+  width: 490px;
+  font-size: 23px;
+}
